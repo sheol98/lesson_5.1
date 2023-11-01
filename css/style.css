@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@400;700;900&display=swap');
+
+/* =========== Montserrat =========== */
+@font-face{
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-MediumItalic.woff2") format("woff2"), url("../fonts/Montserrat-MediumItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face{
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-BoldItalic.woff2") format("woff2"), url("../fonts/Montserrat-BoldItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face{
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-BlackItalic.woff2") format("woff2"), url("../fonts/Montserrat-BlackItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: italic;
+}
+/* ========== Lato ================*/
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+}
+.navigation {
+	background-color: aqua;
+	font-size: 25px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 900;
+	padding: 20px;
+}
+.navigation li{
+	background-color: blanchedalmond;
+	color: blue;
+	font-family: "Montserrat";
+	font-style: italic;
+	font-weight: 700;
+}
+
+#one{
+	color: red;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+}
+.title img{
+	width: 400px;
+	margin-left: 70px;
+}
+.paragraph p{
+	background-color: blueviolet;
+}
+p.text-one,
+p.text-two{
+	color: rgb(12, 94, 94);
+	background-color: yellow;
+}
+.title__two h2{
+	background-color: #204e41;
+}
+.one {
+	background-color: yellow;
+}
+.one h2{
+	text-decoration: overline;
+}
+.one p{
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.two h2{
+	text-align: center;
+	background-color: bisque;
+	text-shadow: 2px 2px 1px red;
+}
+.two p{
+	text-decoration: line-through;
+	font-size: 24px;
+	text-transform: capitalize;
+}
+.three h2{
+	background-color: yellow;
+	font-size: 25px;
+	text-shadow: 1px 3px 3px black;
+}
+.three p{
+	text-transform: lowercase;
+	line-height: 2;
+	color: blue;
+}
+.question h3{
+	color: red;
+	text-indent: 15px;
+	letter-spacing: 7px;
+}
+
+.question ul{
+	/* white-space: nowrap; */
+	word-spacing: 10px;
+}
